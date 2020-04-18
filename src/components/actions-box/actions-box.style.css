@@ -1,0 +1,11 @@
+.actions-box {
+  padding: 24px;
+  margin-right: 24px;
+  min-height: 238px;
+  background: #fff;
+}
+
+.btn-new-job {
+  background: red;
+  border-color: grey;
+}
