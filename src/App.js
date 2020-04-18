@@ -1,10 +1,10 @@
 import React from 'react'
-import Button from 'antd/es/button'
+import HomePage from './pages/homepage/homepage.component'
 
 function App() {
   return (
     <div className="App">
-      <Button type="primary">Pulsa aquí </Button>
+      <HomePage />
     </div>
   )
 }
