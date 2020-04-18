@@ -1,0 +1,20 @@
+.site-layout {
+  padding: 0 50px;
+  margin-top: 64px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+[data-theme='dark'] .site-layout .site-layout-background {
+  background: #141414;
+}
+
+.first-row {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.second-row {
+  padding-bottom: 24px;
+}
