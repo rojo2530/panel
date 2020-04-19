@@ -9,7 +9,7 @@ const OrderBox = ({ isPortal }) => {
 
   return (
     <div className="order-box">Ordenar por:
-      <Select defaultValue="Fecha: Mas recientes" style={{ width: '100%' }} >
+      <Select defaultValue="Fecha: Mas recientes" className="order-box-select">
         <Option value="Hoy">Fecha: Mas recientes</Option>
         <Option value="lucy">Lucy</Option>
         <Option value="Yiminghe">yiminghe</Option>

@@ -16,7 +16,7 @@ const SearchBox = ({ isPortal }) => {
 
       <Row style={{ paddingBottom: 24 }}>
         <Col span={12}>
-          <Select defaultValue="Todas las localizaciones" style={{ width: '100%' }} >
+          <Select defaultValue="Todas las localizaciones" className="search-box-select">
             <Option value="Todas las localizaciones">Todas las localizaciones</Option>
             <Option value="lucy">Lucy</Option>
             <Option value="Yiminghe">yiminghe</Option>
@@ -24,7 +24,7 @@ const SearchBox = ({ isPortal }) => {
         </Col>
         
         <Col span={12}>
-          <Select defaultValue="Todas las categorías" style={{ width: '100%' }} >
+          <Select defaultValue="Todas las categorías" className="search-box-select">
             <Option value="Todas las categorías">Todas las categorías</Option>
             <Option value="lucy">Lucy</Option>
             <Option value="disabled" disabled>
@@ -37,7 +37,7 @@ const SearchBox = ({ isPortal }) => {
       
       <Row style={{ paddingBottom: 24 }}>
         <Col span={12}>
-          <Select defaultValue="Tipos de teletrabajo" style={{ width: '100%' }} >
+          <Select defaultValue="Tipos de teletrabajo" className="search-box-select">
             <Option value="Todas las localizaciones">Todas las localizaciones</Option>
             <Option value="lucy">Lucy</Option>
             <Option value="disabled" disabled>
@@ -48,7 +48,7 @@ const SearchBox = ({ isPortal }) => {
         </Col>
         
         <Col span={12}>
-        <Select defaultValue="Hoy" style={{ width: '100%' }} >
+        <Select defaultValue="Hoy" className="search-box-select">
             <Option value="Hoy">Hoy</Option>
             <Option value="lucy">Lucy</Option>
             <Option value="disabled" disabled>

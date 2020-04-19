@@ -6,7 +6,7 @@ const ActionsBox = () => {
 
   return (
     <div className="actions-box">
-      <Row style={{ paddingBottom: 24 }}>
+      <Row className="actions-box-row-first">
         <Button type="primary" size="medium" block>Migrar Oferta a Wordpress</Button>
       </Row>
       <Row>

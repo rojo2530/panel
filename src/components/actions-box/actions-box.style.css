@@ -9,3 +9,7 @@
   background: red;
   border-color: grey;
 }
+
+.actions-box-row-first {
+  padding-bottom: 24px;
+}
